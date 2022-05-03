@@ -1,0 +1,15 @@
+Process of using Git
+
+1.) Cd into the project directory and initialize it - git init
+2.) Add the repo files you want to push to github - git add ....
+3.) Commit the changes -  git commit -m "First commit"
+4.) Connect to the github repo - git remote add origin https://github.com/datalordstephen/repo-name.git
+5.) Make branch name "main" - git branch -M main (Optional)
+6.) Push to the github repo - git push -u origin main
+
+Iterating
+After editing the repo files, when pushing again
+1.) Check status to verify that the changes were tracked, but are unstaged (havent been re-added)
+2.) Stage files - git add ...
+3.) commit files - git commit -m "Edited the button"
+4.) Push to github repo - git push -u origin main(or master)
