@@ -13,3 +13,11 @@ After editing the repo files, when pushing again
 2.) Stage files - git add ...
 3.) commit files - git commit -m "Edited the button"
 4.) Push to github repo - git push -u origin main(or master)
+
+Branches
+A branch is created in order to modify a file without affecting the original
+1.) Creating a new branch - git checkout -b "name"
+2.) Staging and commiting the new branch - same way as above
+3.) Switching back to the main branch - git checkout main
+4.) merging the test branch with the main branch - git merge test
+5.) Pushing the test branch or main branch to github - git push -u origin main/test
